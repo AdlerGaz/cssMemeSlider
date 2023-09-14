@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #25282a;
+}
+
+.slider {
+    width: 80vw;
+    height: 40vw;
+    margin: 2vw auto 0;
+}
+
+input[name='radio-btn'] {
+    display: none;
+}
+
+.slides__wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.slides,
+.slider__container {
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.slide,
+.slider__description {
+    width: 25%;
+    transition: all 1s ease;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8vw;
+}
+
+.slide img {
+    width: 100%;
+}
+
+.slider__panel {
+    height: 5vw;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2vw;
+}
+
+.slider__description-wrapper {
+    width: 30%;
+    overflow: hidden;
+}
+
+.slider__control {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+}
+
+.control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+}
+
+.point {
+    height: 1.3vw;
+    width: 1.3vw;
+    cursor: pointer;
+    background-color: #71abff;
+    border-radius: 50%;
+    transition: all .5s ease;
+}
+
+.control:hover .point {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #fff;
+}
