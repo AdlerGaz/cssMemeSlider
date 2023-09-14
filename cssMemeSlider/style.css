@@ -123,3 +123,21 @@ input[name='radio-btn'] {
 #radio4:checked~.slider__panel .slider__control label[for='radio4']:hover .point {
     border-color: #fff;
 }
+
+@media screen and (max-width: 600px) {
+    .slider__panel {
+        flex-direction: column;
+        height: 10vw;
+    }
+
+    .slider__description-wrapper {
+        order: 2;
+        width: 100%;
+    }
+
+    .slider__control {
+        order: 1;
+        width: 100%;
+        justify-content: center;
+    }
+}
