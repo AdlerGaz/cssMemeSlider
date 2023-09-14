@@ -108,3 +108,18 @@ input[name='radio-btn'] {
 #radio4:checked~.slider__panel .slider__description-wrapper .slider__container .description1 {
     margin-left: -75%;
 }
+
+#radio1:checked~.slider__panel .slider__control label[for='radio1'] .point,
+#radio2:checked~.slider__panel .slider__control label[for='radio2'] .point,
+#radio3:checked~.slider__panel .slider__control label[for='radio3'] .point,
+#radio4:checked~.slider__panel .slider__control label[for='radio4'] .point {
+    background-color: #000;
+    border: 0.2vw solid #71abff;
+}
+
+#radio1:checked~.slider__panel .slider__control label[for='radio1']:hover .point,
+#radio2:checked~.slider__panel .slider__control label[for='radio2']:hover .point,
+#radio3:checked~.slider__panel .slider__control label[for='radio3']:hover .point,
+#radio4:checked~.slider__panel .slider__control label[for='radio4']:hover .point {
+    border-color: #fff;
+}
