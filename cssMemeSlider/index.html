@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>cssSlider</title>
+</head>
+
+<body>
+    <div class="slider">
+        <input type="radio" name="radio-btn" id="radio1" checked>
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+
+        <div class="slides__wrapper">
+            <div class="slides">
+                <div class="slide slide1">
+                    <img src="./images/img1.jpg" alt="mem">
+                </div>
+                <div class="slide">
+                    <img src="./images/img2.jpg" alt="mem">
+                </div>
+                <div class="slide">
+                    <img src="./images/img3.jpg" alt="mem">
+                </div>
+                <div class="slide">
+                    <img src="./images/img4.jpg" alt="mem">
+                </div>
+            </div>
+        </div>
+
+        <div class="slider__panel">
+            <div class="slider__description-wrapper">
+                <div class="slider__container">
+                    <div class="slider__description description1">
+                        <span>
+                            Description slide 1
+                        </span>
+                    </div>
+                    <div class="slider__description">
+                        <span>
+                            Description slide 2
+                        </span>
+                    </div>
+                    <div class="slider__description">
+                        <span>
+                            Description slide 3
+                        </span>
+                    </div>
+                    <div class="slider__description">
+                        <span>
+                            Description slide 4
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__control">
+                <label for="radio1" class="control">
+                    <div class="point"></div>
+                </label>
+                <label for="radio2" class="control">
+                    <div class="point"></div>
+                </label>
+                <label for="radio3" class="control">
+                    <div class="point"></div>
+                </label>
+                <label for="radio4" class="control">
+                    <div class="point"></div>
+                </label>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
